@@ -5,9 +5,10 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yay, see you on the 18th!";
+  question.innerHTML = "yieee HAHAHA (screenshot this page and send to bea as proof of acceptance)";
   gif.src =
-    "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+    "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWRrcW40M2w2OWwydjljc3MyaGNraW1wdHJvdjdxemt5eTNyMXlpNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L0rMNF5j2FbypBB4Le/giphy.gif";
+    // "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
